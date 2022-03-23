@@ -30,6 +30,11 @@ nav {
     right: 0;
     height: 100vh;
     padding: 2rem;
+    transform: translateX(100%);
+}
+
+nav.active {
+    transform: translateX(0);
 }
 
 nav ul {
